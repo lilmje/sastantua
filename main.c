@@ -1,12 +1,11 @@
 #include "include.h"
 #include <stdio.h>
-int		main(void)
+int		main(int argc, char **argv)
 {
-
-
 	int r;
-	r = ft_atoi("13");
+	argc = 3;
+	r = ft_atoi(argv[1]);
 
-	printf("%d\n", r);
+	printf("%i\n", r);
 	return (0);
 }

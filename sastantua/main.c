@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+int		ft_triangle(char *str);
 
 int		main(int ar, char **av)
 {

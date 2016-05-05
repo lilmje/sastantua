@@ -14,7 +14,7 @@ SHELL = /bin/sh
 
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
-SRCS_C = debug.c src/*.c
+SRCS_C = main.c src/*.c
 SRCS = $(SRCS_C)
 NAME = sastantua.out
 

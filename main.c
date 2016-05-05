@@ -2,10 +2,11 @@
 #include <stdio.h>
 int		main(void)
 {
+
+
 	int r;
+	r = ft_atoi("13");
 
-	r =ft_atoi("coucou");
-
-	printf("%i\n", r);
+	printf("%d\n", r);
 	return (0);
 }

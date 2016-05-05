@@ -6,7 +6,7 @@
 /*   By: valimeroilou <valimeroilou@student.42.fr>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/05/05 19:34:23 by valimeroilou      #+#    #+#             */
-/*   Updated: 2016/05/05 22:39:49 by valimeroilou     ###   ########.fr       */
+/*   Updated: 2016/05/05 22:44:58 by valimeroilou     ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,7 @@ int		ft_atoi(char *str)
 		i++;
 	}
 
-	return(resultat); /*DEV*/
+	return(resultat);
 }
 
 

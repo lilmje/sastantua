@@ -1,23 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   include.h                                          :+:      :+:    :+:   */
+/*   math.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: valimeroilou <valimeroilou@student.42.fr>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/05/05 19:43:27 by valimeroilou      #+#    #+#             */
-/*   Updated: 2016/05/05 22:40:20 by valimeroilou     ###   ########.fr       */
+/*   Created: 2016/05/05 22:25:19 by valimeroilou      #+#    #+#             */
+/*   Updated: 2016/05/05 22:31:46 by valimeroilou     ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_INCLUDE_H
-# define FT_INCLUDE_H
+#include "../include.h"
 
-# include <unistd.h>
+int		power(int nbr, int power)
+{
+	int		resultat;
+	int		i;
+	i = 0;
 
-void		ft_putchar(char c);
-void		ft_putstr(char *str);
-int			ft_countstr(char *str);
-int			ft_check_number(char *str); /*Verifie si il n'y a que des chiffres*/
-int			power(int nbr, int power);
-#endif
+	resultat = 1;
+	if(power == 0)
+	{
+		return (1);
+	}
+
+	while(i < power)
+	{
+		resultat = resultat * nbr;
+		i++;
+	}
+	return(resultat);
+}

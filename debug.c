@@ -2,11 +2,10 @@
 #include <stdio.h>
 int		main(void)
 {
-	char *str;
-	str = "12321312390";
-	int i;
-	i = ft_check_number(str);
+	int r;
 
-	printf("%i\n", i);
+	r = power(2, 0);
+
+	printf("%i\n", r);
 	return (0);
 }

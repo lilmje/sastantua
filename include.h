@@ -6,7 +6,7 @@
 /*   By: valimeroilou <valimeroilou@student.42.fr>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/05/05 19:43:27 by valimeroilou      #+#    #+#             */
-/*   Updated: 2016/05/05 22:50:10 by valimeroilou     ###   ########.fr       */
+/*   Updated: 2016/05/05 23:17:39 by valimeroilou     ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,11 @@ int			ft_atoi(char *str);			/*converti une variable de type char en int*/
 void		ft_putchar(char c);			/*ecris un charactere sur la sortie standard*/
 void		ft_putstr(char *str);		/*ecris une chaine de caractere sur la sortie standard*/
 int			ft_countstr(char *str); 	/*Compte le nombre de caractere dans une chaine*/
+
+/*ft_atoi.c*/
 int			ft_check_number(char *str);	/*Verifie si il n'y a que des chiffres*/
 int			power(int nbr, int power);	/*math.c permet de faire une puissance*/
+
+/*sastantua.c*/
+void		sas_printline(int o);
 #endif

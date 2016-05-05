@@ -6,17 +6,38 @@
 /*   By: valimeroilou <valimeroilou@student.42.fr>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/05/05 19:34:23 by valimeroilou      #+#    #+#             */
-/*   Updated: 2016/05/05 19:47:50 by valimeroilou     ###   ########.fr       */
+/*   Updated: 2016/05/05 21:43:23 by valimeroilou     ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include.h"
 
-
-
-
-
-int		ft_atoi(char *)
+int		ft_check_number(char *str) /*Verifie si il n'y a que des chiffres*/
 {
+	int i;
+	i = 0;
 
+	while(str[i] != '\0')
+	{
+		if (!(str[i] >= 48 && str[i] <= 57))
+		{
+			return (0);
+		}
+		i++;
+	}
+	return (1);
+}
+
+
+
+int		ft_atoi(char *str)
+{
+	int number_char;
+
+	number_char = ft_countstr(str);
+	if (number_char < 1)
+	{
+		return(0);
+	}
+	return(1);
 }

@@ -4,7 +4,7 @@ int		main(void)
 {
 	int r;
 
-	r = power(2, 0);
+	r =ft_atoi("coucou");
 
 	printf("%i\n", r);
 	return (0);

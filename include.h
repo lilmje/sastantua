@@ -6,7 +6,7 @@
 /*   By: valimeroilou <valimeroilou@student.42.fr>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/05/05 19:43:27 by valimeroilou      #+#    #+#             */
-/*   Updated: 2016/05/05 22:40:20 by valimeroilou     ###   ########.fr       */
+/*   Updated: 2016/05/05 22:41:29 by valimeroilou     ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define FT_INCLUDE_H
 
 # include <unistd.h>
-
+int			ft_atoi(char *str);
 void		ft_putchar(char c);
 void		ft_putstr(char *str);
 int			ft_countstr(char *str);
